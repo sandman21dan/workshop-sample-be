@@ -1,0 +1,32 @@
+{
+  "name": "workshop-sample-be",
+  "version": "1.0.0",
+  "description": "A sample backend for a kubernetes hosted app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Daniel Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/faker": "^4.1.5",
+    "@types/jest": "^24.0.12",
+    "@types/morgan": "^1.7.35",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "morgan": "^1.9.1"
+  }
+}
